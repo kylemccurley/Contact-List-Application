@@ -1,0 +1,12 @@
+{
+  Friends: {
+    Bill: { phone: 4341234567, email: billgorman@gmail.com },
+    Kyle: { phone: 4344262122, email: kylemccurley@gmail.com },
+    Stephanie: { phone: 4344442555, email: glasgowstph@aol.com }
+  },
+
+  Work: {
+    Steve: { phone: 4342345692, email: stevejobs@gmail.com },
+    Wozniak: { phone: 4345219532, email: stevewozniak@gmail.com }
+  }
+}

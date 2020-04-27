@@ -1,0 +1,13 @@
+<link rel='stylesheet' type='text/css' href='index.css'>
+<div class='main'>
+  <h1 class='title'>Categories</h1>
+  <ul>
+    <% @categories.each do |cat| %>
+      <div class='item'>
+	    <li class='text'>
+		  <a href='/<%=cat%>'><b><%=cat%></b></a>
+	    </li>
+	  </div>
+    <% end %>
+  </ul>
+</div>

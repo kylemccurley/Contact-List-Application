@@ -1,0 +1,21 @@
+<link rel='stylesheet' type='text/css' href='../index.css'>
+<div class='main'>
+  <h1 class='title'><%=@name%></h1>
+  <ul>
+  	<div class='item'>
+  		<li class='text'>
+  			<b>Phone:</b> <%=@phone%>
+  		</li>
+  	</div>
+
+  	<div class='item'>
+  		<li class='text'>
+  			<b>Email:</b> <%=@email%>
+  		</li>
+  	</div>
+  </ul>
+</div>
+
+<form action='/<%=@category%>' method='get'>
+	<button style='width: 10em' type='submit'>Go Back</button>
+</form>
